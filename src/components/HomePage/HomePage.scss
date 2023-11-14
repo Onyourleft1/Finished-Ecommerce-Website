@@ -1,0 +1,15 @@
+#Homepage_Container {
+	#Banner {
+		height: 20vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#Cards {
+		display: flex;
+		overflow-x: scroll;
+		gap: 1rem;
+		padding: 2rem;
+	}
+}

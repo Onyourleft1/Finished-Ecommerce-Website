@@ -1,0 +1,42 @@
+#Login_Container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	form {
+		border: 2px solid black;
+		padding: 1rem;
+		border-radius: 15px;
+		width: max-content;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 1rem;
+
+		label {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 0.5rem;
+
+			input {
+				padding: 0.5rem 1rem;
+				border-radius: 5px;
+				border: 2px solid black;
+			}
+		}
+
+		button {
+			padding: 0.5rem 1.5rem;
+			background-color: transparent;
+			border: 2px solid black;
+			border-radius: 5px;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}

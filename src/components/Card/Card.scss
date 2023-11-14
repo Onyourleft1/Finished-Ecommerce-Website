@@ -1,0 +1,22 @@
+#Card_Container {
+	border: 2px solid black;
+	padding: 1rem;
+	border-radius: 15px;
+
+	img {
+		width: 200px;
+		height: 50%;
+		object-fit: contain;
+		border-radius: 15px;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	button {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

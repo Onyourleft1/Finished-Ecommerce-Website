@@ -1,0 +1,14 @@
+#Cart_Card_Container {
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 15px;
+	justify-content: space-between;
+
+	h2 {
+		text-align: left;
+	}
+}
